@@ -135,20 +135,22 @@ letter-spacing: -2px;
 .rheading3{
     font-size: 15px;
     padding-left: 120px;
+    margin-top: -45px;
     color: azure;
     font-family: sans-serif;
     
 }
-
+/*
 .checkbox3{
 
-    padding-left: 90px;
+    padding-left: 0px;
 margin-top: -32px;
 
 }
+*/
 .checkbox4{
     padding-left: 380px;
-    margin-top: -20px;
+    margin-top: -29px;
 }
 .box4{
      background-color: brown;
@@ -189,35 +191,38 @@ margin-top: -32px;
     padding-left: 120px;
     color: azure;
     font-family: sans-serif;
-   
+
+   padding-bottom: -40px;
 
 
 }
 
 .checkbox5{
    
-    padding-left: 90px;
-margin-top: -32px;
+margin-top: -49px;
+padding-bottom: 15px;
 }
 .checkbox6{
     padding-left: 380px;
-    margin-top: -20px;
+    margin-top: -42px;
+
 }
 .rheading5{
     font-size: 15px;
     padding-left: 120px;
     color: azure;
     font-family: sans-serif;
+   padding-bottom: -40px;
+
 }
 
 .checkbox7{
-   
-    padding-left: 90px;
-margin-top: -32px;
+margin-top: -49px;
+padding-bottom: 15px;
 }
 .checkbox8{
     padding-left: 380px;
-    margin-top: -20px;
+    margin-top: -42px;
 }
 .s-b-6{
      padding-left: 90px;
@@ -237,6 +242,9 @@ margin-top: -32px;
     padding-left: 120px;
     color: azure;
     font-family: sans-serif;
+
+  
+
 }
 
 .s-b-7{
@@ -253,13 +261,12 @@ margin-top: -32px;
 }
 
 .checkbox9{
-   
-    padding-left: 90px;
-margin-top: -32px;
+margin-top: -49px;
+padding-bottom: 15px;
 }
 .checkbox10{
-    padding-left: 380px;
-    margin-top: -20px;
+     padding-left: 380px;
+    margin-top: -42px;
 }
 
 .rheading7{
@@ -272,12 +279,12 @@ margin-top: -32px;
 
 .checkbox11{
    
-    padding-left: 90px;
-margin-top: -32px;
+margin-top: -49px;
+padding-bottom: 15px;
 }
 .checkbox12{
-    padding-left: 380px;
-    margin-top: -20px;
+     padding-left: 380px;
+    margin-top: -42px;
 }
 .s-b-8{
      padding-top: 15px;
@@ -307,8 +314,8 @@ margin-top: -32px;
 }
 
 .button-2{
-  width: 13px;
-  height: 13px;
+  width: 15px;
+  height: 15px;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -325,8 +332,8 @@ margin-top: -32px;
 .button-3{
 cursor: pointer;
 display: flex;
-height: 13px;
-width: 13px;
+height: 15px;
+width: 15px;
 align-items: center;
 justify-content: center;
 padding: 0;
@@ -336,8 +343,8 @@ padding: 0;
     cursor: pointer;
     padding: 0;
     justify-content: center;
-    height: 13px;
-    width: 13px;
+    height: 15px;
+    width: 15px;
     align-items: center;
     display: flex;
 
@@ -345,8 +352,8 @@ padding: 0;
 .button-5{
     cursor: pointer;
     display: flex;
-    height: 13px;
-    width: 13px;
+    height: 15px;
+    width: 15px;
     justify-content: center;
     align-items: center;
     padding: 0;
@@ -356,24 +363,24 @@ padding: 0;
     cursor: pointer;
     display: flex;
     justify-content: center;
-    height: 13px;
-    width: 13px;
+    height: 15px;
+    width: 15px;
     align-items: center;
     padding: 0;
 }
 .button-7{
     cursor: pointer;
     display: flex;
-    height: 13px;
-    width: 13px;
+    height: 15px;
+    width: 15px;
     justify-content: center;
     align-items: center;
     padding: 0;
 }
 .button-8{
     cursor: pointer;
-    height: 13px;
-    width: 13px;
+    height: 15px;
+    width: 15px;
     justify-content: center;
     align-content: center;
     padding: 0;
@@ -391,15 +398,65 @@ padding: 0;
     color: white;
 }
     
+
+    
 .custom-checkbox {
+   margin-left: 90px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+  
     appearance: none;
-    width: 13px;
-    height: 13px;
+    width: 15px;
+    height: 15px;
     border: 2px solid white;
     background-color: transparent;
     margin-right: 10px;
     position: relative;
     cursor: pointer;
+    
 }
+.custom-checkbox-1{
+      margin-left: 90px;
+ margin-bottom: 20px;
+  
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    background-color: transparent;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+    
+
+}
+.custom-checkbox:checked::before-1{
+
+     content: '✔';
+    position: absolute;
+    top: -2px;
+    left: 1px;
+    font-size: 11px;
+    color: white;
+}
+
+.custom-checkbox-2{
+    appearance: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    height: 15px;
+    width: 15px;
+ position: relative;
+}
+    .custom-checkbox:checked::before-2{
+    content: '✔';
+    position: absolute;
+    top: -2px;
+    left: 1px;
+    font-size: 11px;
+    color: white;
+
+    }
      
   
