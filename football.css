@@ -303,14 +303,16 @@ padding-bottom: 15px;
 }
 .button{
     width: 432px;
-    font-size: 15px;
+    font-size: 27px;
     font-family: sans-serif;
+    letter-spacing: 2px;
 
-    height: 60px;
+    height: 55px;
 }
 .s-b-9{
    padding-top: 50px;
    padding-left: 90px;
+  
 }
 
 .button-2{
