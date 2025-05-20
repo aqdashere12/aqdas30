@@ -5,7 +5,7 @@
 background-color: brown;
 margin-left: 15px;
 padding-top: 50px;
-height: 1150px;
+height: 1200px;
 clip-path: polygon(  0 0, 100% 0, 100% calc(92% - 40px), calc(92% - 30px) 100%, 0 100%)
 }
 .s-i-1{
@@ -18,25 +18,16 @@ padding-bottom: 20px;
 .s-b-1{
      padding-left: 90px;
 width: 150px;
-
 margin-top: -25px;
-
- 
 margin-top: 30px;
-
-
-
 }
 
 
 .box1{
     background-color: brown;
-   
     height: 45px;
-
      width: 450px;
      margin-top: -15px;
-
  border-color: beige;
 }
 
@@ -71,8 +62,6 @@ padding-top: 20px;
 
     border-color: beige;
    
-   
-
 }
 .h-boxes{
     display: flex;
@@ -98,18 +87,8 @@ color: blanchedalmond;
     font-family: sans-serif;
   
 }
-.leftheadings{
-    margin: 0;
-   padding-left: 150px;
-    display: block;
-    
-}
 
 
-.checkbox2{
-    padding-left: 480px;
-    margin-top: -32px;
-}
 .heading3{
     padding-left: 135px;
     font-size: 20px;
@@ -132,188 +111,6 @@ letter-spacing: -2px;
     color: azure;
     font-family: sans-serif;
 }
-.rheading3{
-    font-size: 15px;
-    padding-left: 120px;
-    margin-top: -45px;
-    color: azure;
-    font-family: sans-serif;
-    
-}
-/*
-.checkbox3{
-
-    padding-left: 0px;
-margin-top: -32px;
-
-}
-*/
-.checkbox4{
-    padding-left: 380px;
-    margin-top: -29px;
-}
-.box4{
-     background-color: brown;
-    width: 450px;
-    height: 70px;
-   
-
-    border-color: beige;
-  
-}
-.s-b-4{
-  padding-top: 15px;
-
-    padding-left: 90px;
-
-    
-}
-
-
-.s-b-5{
-     padding-left: 90px;
-      padding-top: 15px;
-
-}
-.box5{
-       background-color: brown;
-    width: 450px;
-    height: 70px;
-
-    border-color: beige;
-
-}
-
-
-
-.rheading4{
-    font-size: 15px;
-    padding-left: 120px;
-    color: azure;
-    font-family: sans-serif;
-
-   padding-bottom: -40px;
-
-
-}
-
-.checkbox5{
-   
-margin-top: -49px;
-padding-bottom: 15px;
-}
-.checkbox6{
-    padding-left: 380px;
-    margin-top: -42px;
-
-}
-.rheading5{
-    font-size: 15px;
-    padding-left: 120px;
-    color: azure;
-    font-family: sans-serif;
-   padding-bottom: -40px;
-
-}
-
-.checkbox7{
-margin-top: -49px;
-padding-bottom: 15px;
-}
-.checkbox8{
-    padding-left: 380px;
-    margin-top: -42px;
-}
-.s-b-6{
-     padding-left: 90px;
- padding-top: 15px;
-}
-.box6{
-       background-color: brown;
-    width: 450px;
-    height: 70px;
-
-    border-color: beige;
-
-}
-
-.rheading6{
-    font-size: 15px;
-    padding-left: 120px;
-    color: azure;
-    font-family: sans-serif;
-
-  
-
-}
-
-.s-b-7{
-     padding-top: 15px;
-     padding-left: 90px;
-}
-
-.box7{
-       background-color: brown;
-    width: 450px;
-    height: 70px;
-
-    border-color: beige;
-}
-
-.checkbox9{
-margin-top: -49px;
-padding-bottom: 15px;
-}
-.checkbox10{
-     padding-left: 380px;
-    margin-top: -42px;
-}
-
-.rheading7{
-    font-size: 15px;
-    padding-left: 120px;
-    color: azure;
-    font-family: sans-serif;
-    margin-top: 5px;
-}
-
-.checkbox11{
-   
-margin-top: -49px;
-padding-bottom: 15px;
-}
-.checkbox12{
-     padding-left: 380px;
-    margin-top: -42px;
-}
-.s-b-8{
-     padding-top: 15px;
-     padding-left: 90px;
-     color: bisque;
-}
-
-.box8{
-       background-color: brown;
-    width: 450px;
-    height: 70px;
-    font-size: 15px;
-   color: beige;
-
-    border-color: beige;
-}
-.button{
-    width: 432px;
-    font-size: 27px;
-    font-family: sans-serif;
-    letter-spacing: 2px;
-
-    height: 55px;
-}
-.s-b-9{
-   padding-top: 50px;
-   padding-left: 90px;
-  
-}
 
 .button-2{
   width: 15px;
@@ -325,140 +122,77 @@ padding-bottom: 15px;
   padding: 0;
 }
 
-.checkbox1{
-    padding-left: 503px;
-    margin-top: -29px;
-    align-content: center;
+#maindiv1{
+   
+     padding-left: 90px;
+      width: 450px;
 }
 
-.button-3{
-cursor: pointer;
-display: flex;
-height: 15px;
-width: 15px;
-align-items: center;
-justify-content: center;
-padding: 0;
-}
-
-.button-4{
-    cursor: pointer;
-    padding: 0;
-    justify-content: center;
-    height: 15px;
-    width: 15px;
+#m-2{
+    display: flex; 
     align-items: center;
-    display: flex;
-
+     gap:45px;
 }
-.button-5{
-    cursor: pointer;
+#m-3{
     display: flex;
-    height: 15px;
-    width: 15px;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-
-}
-.button-6{
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    height: 15px;
-    width: 15px;
-    align-items: center;
-    padding: 0;
-}
-.button-7{
-    cursor: pointer;
-    display: flex;
-    height: 15px;
-    width: 15px;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-}
-.button-8{
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    justify-content: center;
-    align-content: center;
-    padding: 0;
-    align-items: center;
-    display: flex;
-    
-}
-
-.custom-checkbox:checked::before {
-    content: '✔';
-    position: absolute;
-    top: -2px;
-    left: 1px;
-    font-size: 11px;
-    color: white;
+    align-items: center; 
+    width: 50%;
+    padding-left: -3px;
 }
     
-
-    
-.custom-checkbox {
-   margin-left: 90px;
-   margin-top: 20px;
-   margin-bottom: 10px;
-  
-    appearance: none;
-    width: 15px;
-    height: 15px;
-    border: 2px solid white;
-    background-color: transparent;
-    margin-right: 10px;
-    position: relative;
-    cursor: pointer;
-    
-}
-.custom-checkbox-1{
-      margin-left: 90px;
- margin-bottom: 20px;
-  
-    appearance: none;
-    width: 15px;
-    height: 15px;
-    border: 2px solid white;
-    background-color: transparent;
-    margin-right: 10px;
-    position: relative;
-    cursor: pointer;
-    
-
-}
-.custom-checkbox:checked::before-1{
-
-     content: '✔';
-    position: absolute;
-    top: -2px;
-    left: 1px;
-    font-size: 11px;
-    color: white;
+#m-4{
+    margin-left: -4px;
+   
 }
 
-.custom-checkbox-2{
-    appearance: none;
-    cursor: pointer;
-    background-color: transparent;
-    border: 2px solid white;
-    height: 15px;
-    width: 15px;
- position: relative;
-}
-    .custom-checkbox:checked::before-2{
-    content: '✔';
-    position: absolute;
-    top: -2px;
-    left: 1px;
-    font-size: 11px;
-    color: white;
 
+#maindiv2{
+    padding-left: 90px;
+    width: 450px;
+}
+#s-2{
+    display: flex;
+    align-items: center;
+    gap: 117px;
+}
+.box5{
+    width: 450px;
+    height: 80px;
+    background-color: brown;
+    border-color: aliceblue;
+}
+    #maindiv3{
+        padding-left: 90px;
+        width: 450px;
     }
+    #p-2{
+        gap: 91px;
+        align-items: center;
+        display: flex;
+    }
+#maindiv4{
+    width: 450px;
+    padding-left: 90px;
+}
+#q-2{
+    gap: 90px;
+    display: flex;
+    align-items: center;
+}
+#maindiv5{
+    padding-left: 90px;
+    width: 450px;
+}
+#v-2{
+    display: flex;
+    align-items: center;
+    gap: 97px;
+}
+
+
+    
+
+
+
      
   
